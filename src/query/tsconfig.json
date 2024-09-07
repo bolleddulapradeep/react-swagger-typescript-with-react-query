@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig",
+  "compilerOptions": {
+    "baseUrl": "src",
+    "outDir": "lib",
+    "strict": false,
+    "allowJs": true,
+    "target": "esnext",
+    "module": "esnext",
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src"],
+  "exclude": ["lib", "node_modules"]
+}

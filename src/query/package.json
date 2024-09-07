@@ -1,0 +1,15 @@
+{
+  "name": "query",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build:shared": "tsc -p ./tsconfig.build.json && npm copy-files"
+  },
+  "keywords": ["shared"],
+  "author": "",
+  "license": "ISC"
+}
